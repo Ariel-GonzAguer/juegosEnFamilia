@@ -1,0 +1,24 @@
+.homePage {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.tombola {
+  grid-area: 1/1/1/2;
+}
+
+.moneda {
+  grid-area: 1/2/2/3;
+}
+
+.talonario {
+  grid-area: 2/1/3/2;
+}
+
+.ruleta {
+  grid-area: 2/2/3/3;
+}
